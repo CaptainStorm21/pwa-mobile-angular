@@ -1,0 +1,14 @@
+.nav {
+  width: 99%;
+  margin: 0 auto;
+  background-color: black;
+  padding: 10px;
+  li {
+    list-style-type: none;
+
+    color: white;
+    display: inline;
+    padding: 10px;
+    margin-right: 5px;
+  }
+}

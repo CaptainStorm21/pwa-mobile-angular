@@ -1,0 +1,14 @@
+<ul>
+    <li *ngFor = "let todo of todos">
+        <app-todos-item [todo]="todo" (selectedTodo)="onSelectedTodo($event)"> </app-todos-item>
+
+    </li>
+</ul>
+
+
+<!-- <ul>
+    <li *ngFor = "let todo of todos">
+        <app-todos-item [todo]="todo"> </app-todos-item>
+
+    </li>
+</ul> -->
